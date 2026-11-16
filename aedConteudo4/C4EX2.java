@@ -1,0 +1,46 @@
+package aedConteudo4;
+
+import java.util.Scanner;
+
+public class C4EX2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	Scanner teclado = new Scanner (System.in);
+		String nome, ci, cpf, empresa, salario;
+		long titulo, carteira;
+		
+		System.out.println("Informe seu nome: ");
+		nome = teclado.nextLine();
+		System.out.println("Informe o nome da sua empresa: ");
+		empresa = teclado.nextLine();
+		System.out.println("Informe seu CPF: ");
+		cpf = teclado.nextLine();
+		System.out.println("Informe seu sal�rio: ");
+		salario = teclado.nextLine();
+		System.out.println("Informe seu titulo de eleitor: ");
+		titulo = teclado.nextLong();
+		System.out.println("Informe a sua carteira de motorista: ");
+		carteira = teclado.nextLong();
+		teclado.nextLine();
+		System.out.println("informe seu carteira de identidade: ");
+		ci = teclado.nextLine();
+		System.out.println("Ficha Funcional de: "+nome);
+		System.out.println();
+		System.out.println("Documentos: ");
+		System.out.println();
+		System.out.println("CPF......................"+cpf);
+		System.out.println("C.I. ...................."+ci);
+		System.out.println("Titulo de eleitor........"+titulo);
+		System.out.println("Carteira de motorista...."+carteira);
+		System.out.println();
+		System.out.println("Empresa: "+empresa);
+		System.out.println("Salario: "+salario);
+		teclado.close();
+		
+		
+		
+		
+	}
+
+}
